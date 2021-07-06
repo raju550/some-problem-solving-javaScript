@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>add eventListener</title>
+  </head>
+  <body>
+    <div id="container">
+      <h1>My list</h1>
+      <div id="myList">
+        <li id="first" class="item">america</li>
+        <li class="item">canada</li>
+        <li class="item">bangladesh</li>
+        <li class="item">england.</li>
+        <li class="item">japan</li>
+      </div>
+      <button id="addNew">Add New</button>
+    </div>
+    <script>
+      //   var items = document.getElementsByClassName("item");
+      //   for (let i = 0; i < items.length; i++) {
+      //     const item = items[i];
+      //     item.addEventListener("click", function (even) {
+      //       event.target.parentNode.removeChild(event.target);
+      //     });
+      //   }
+      document
+        .getElementById("addNew")
+        .addEventListener("click", function (event) {
+          var parentItem = document.getElementById("myList");
+          var newItems = document.createElement("li");
+          newItems.innerText = "africa";
+          parentItem.appendChild(newItems);
+        });
+      document
+        .getElementById("myList")
+        .addEventListener("click", function (event) {
+          event.target.parentNode.removeChild(event.target);
+        });
+    </script>
+  </body>
+</html>

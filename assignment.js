@@ -8,7 +8,7 @@ const prompt = ps();
 //     var total = mile * feet;
 //     console.log("this is your total mile", total);
 //   } else {
-//     console.log("this is nagative number,not convert ");
+//     console.log("this is negative number,not convert ");
 //   }
 // }
 // var feet = prompt("Please enter your Mile number:");
@@ -38,7 +38,7 @@ const prompt = ps();
 // var totalBed = prompt("Please enter your total bed number:");
 
 // woodCalculator(totalChair, totalTable, totalBed);
-// var tinyFriends = ["raju", "rofiq", "ll", "fjhdrt"];
+// var tinyFriends = ["raju", "rofiq", "ll"];
 
 // var tinyName = tinyFriends[0];
 // for (i = 1; i < tinyFriends.length; tinyFriends++) {
@@ -48,17 +48,19 @@ const prompt = ps();
 //   }
 // }
 // console.log(tinyName);
-function tinyFriend(arr) {
-  var tiny = arr[0];
-  for (let i = 0; i < arr.length; i++) {
-    const element = arr[i];
-    if (tiny.length > element.length) {
-      tiny = element;
-    }
-  }
-  return tiny;
-}
+// function tinyFriend(arr) {
+//   var tiny = arr[0];
+//   for (let i = 0; i < arr.length; i++) {
+//     const element = arr[i];
+//     if (tiny.length > element.length) {
+//       tiny = element;
+//     }
+//   }
+//   return tiny;
+// }
 
-var friend = ["abir", "abdullah", "robin", "abdurrohim", "ali"];
-var smallFrind = tinyFriend(friend);
-console.log(smallFrind);
+// var friend = ["abir", "abdullah", "robin", "abdurrohim", "ali"];
+// var smallFriend = tinyFriend(friend);
+// console.log(smallFriend);
+
+// brickCalculator
