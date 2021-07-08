@@ -1,0 +1,24 @@
+body {
+  padding: 100px 700px;
+  border-radius: 10px;
+  background-color: brown !important;
+}
+.calculator-area {
+  box-shadow: 10px 10px 10px 5px gray;
+}
+.item {
+  border: greenyellow;
+  background-color: black;
+  padding: 50px;
+}
+.items {
+  padding-bottom: 20px;
+}
+.items input {
+  width: 100%;
+  padding: 30px;
+  text-align: right;
+}
+.itemBtn button {
+  width: 100%;
+}
